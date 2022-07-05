@@ -2,7 +2,7 @@
 
 ## Variables in C
 
-- "Variables are references used to store information for a future use"
+Variables are references used to store information for a future use
 
   - main data types:
   

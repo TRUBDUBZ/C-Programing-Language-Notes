@@ -6,10 +6,13 @@
 
 - A common use of modulo is determining if an integer is even or odd. If we have an integer, x, and aren’t sure if it’s even or odd, we can use modulo to see the remainder. If the result is 1, x is odd, otherwise it is even.
   
-  `int main() {`
+  `
+  int main() {
   
-  `int endingDayOfWeek = 0;`
-  `int daysThatPass = 2;`
-  `int daysInWeek = 7;`
+  int endingDayOfWeek = 0;
+  int daysThatPass = 2;
+  int daysInWeek = 7;
 
-  `endingDayOfWeek = daysThatPass % daysInWeek;`
+  endingDayOfWeek = daysThatPass % daysInWeek;
+  
+  `

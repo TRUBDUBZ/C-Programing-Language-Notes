@@ -4,9 +4,11 @@
 - for instance you may need to change from a variable type int to a     variable type of double
 - this would not work:
 
- `int a;
-  double b = 3.0;
-  a = b;`
+`
+int a;
+double b = 3.0;
+  a = b;
+`
 
 - There are two types of conversions, *implicit* and *explicit*. When you set one variable to be the same as another, such as a = b above, but their types do not match, the compiler will try to convert them. However, this can be dangerous as you might not know what values will be in the variable at runtime, and it might not be implicitly convertible to another type. Our example above was *implicit*, the compiler in this case will make a best guess.
 

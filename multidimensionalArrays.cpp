@@ -18,7 +18,27 @@ int mat[][3] = {{1, 6, 3}, {5, 9, 2}};
 
 // Just like in the single dimension case, the array is initialized by placing elements between {} brackets.
 //  In this case, the elements inside the outermost brackets are arrays of three elements each.
-//  It is important to note that while the two-by-three dimension can be inferred from the right-hand side of the expression, the only dimension that can be omitted is the first (notice the first [] is empty); all others must be supplied. The array mat2, represents this table:
+//  It is important to note that while the two-by-three dimension can be inferred from the right-hand side of the expression, the only dimension that can be omitted is the first (notice the first [] is empty); all others must be supplied. The array mat2, represents this table
 
-TO BE CONTINUED
+// While it is possible to have a theoretically infinite number of dimensions, in practice, dimensions greater than two are very rare. For a two-dimensional matrix, the first dimension represents the number of rows and the second dimension represents the number of columns.
 
+// Create a two-dimensional nine-by-nine uninitialized array of integers called arr. 
+
+#include<stdio.h>
+
+int main() {
+  
+  int arr[9][9];
+
+// Given the following table: (https://www.codecademy.com/courses/learn-c/lessons/arrays-c/exercises/multidimensional-arrays)
+// Create an initialized two-dimensional array called matrix that represents it.
+
+#include<stdio.h>
+
+int main() {
+
+  int arr[9][9];
+int matrix[][3] = {{2, 9, 11}, {3, 1, 4}, {8, 3, 1}}; 
+}
+
+ 

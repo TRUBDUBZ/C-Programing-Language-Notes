@@ -4,12 +4,10 @@
 
 - As an example, if you wanted to perform a segment of code if a had the same value as b, you could write it as:
 
-`
 int a = 3;
 int b = 3;
 if (a == b) {
 a++;
 }
 
-`
 

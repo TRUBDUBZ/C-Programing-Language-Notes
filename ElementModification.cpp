@@ -3,7 +3,7 @@
 
 // Array elements can be accessed, modified, and used just like any other variable of the same data type.
 // The following shows how to acess an element in an array at index `idx`:
-`arr[idx]`
+arr[idx]
 
 // The first element in an array has index 0 and the last element in an array has index `arraySize-1`
 // The nth element is at index n-1, so, for example, the third element would be at index 2.

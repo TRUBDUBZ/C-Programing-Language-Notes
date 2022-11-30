@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <ctime>
 
-int main() {
+int main()
   
   // Create a number that's 0 or 1
   
